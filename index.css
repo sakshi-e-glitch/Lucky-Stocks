@@ -1,0 +1,238 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+body{
+    background-color: black;
+}
+/* 
+html, body{
+    width:100%;
+    height:100vh;
+  } */
+
+header{
+    text-align: center;
+    color: white;
+}
+
+header img{
+    width: 60vw;
+    margin: 60px 0px 50px 0px;
+}
+
+header.heading nav#top_stick{
+    margin: 50px 5px;
+    width: 100vw;
+    position: -webkit-sticky;
+    top: 0pc;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+
+#carouselExampleControls{
+    background-color: rgba(0, 0, 255, 0.123);
+    width: 70vw;
+    margin: 0px auto;
+}
+
+.carousel-inner{
+    width: 30vw;
+    margin: 0px auto;
+}
+
+.carousel-item img{
+    width: 30vw;
+    height: 30vw;
+    margin: 10px 0px;
+    padding: 0px auto;
+    border-radius: 10px;
+}
+
+.main{
+    text-align: center;
+    display: flex;
+    background-color: rgba(0, 0, 255, 0.26);
+    border-radius: 5px;
+    width: 70vw;
+    height: 60vh;
+    align-items: center;
+    justify-content: center;
+    margin: 200px auto;
+}
+
+div.main-item h1, div.main-item h2{
+    color: whitesmoke;
+    margin: 10px 0px;
+}
+
+div.main-item button{
+    padding: 10px 50px;
+    border: none;
+    font-weight: bold;
+    border-radius: 2px;
+    margin: 10px 0px;
+}
+
+div.main-item button:hover{
+    background-color: blue;
+    color: white;
+}
+
+.learn{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 255, 0.26);
+    border-radius: 5px;
+    width: 70vw;
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+    margin: 200px auto;
+}
+
+div.learn-item h1, div.learn-item h2, div.learn-item p{
+    text-align: center;
+    color: whitesmoke;
+    margin: 10px 0px;
+    
+}
+
+div.topics{
+    margin-top: 5vw;
+    display: flex;
+    flex-direction: column;
+}
+
+div.topics button{
+    padding: 10px 50px;
+    width: 400px;
+    border: none;
+    font-weight: bold;
+    border-radius: 2px;
+    margin: 10px 0px;
+}
+
+div.topics button:hover{
+    background-color: blue;
+    color: white;
+}    
+
+.team{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 255, 0.26);
+    box-shadow: rgba(114, 46, 240, 0.4) 5px 5px, rgba(98, 46, 240, 0.3) 10px 10px, rgba(169, 46, 240, 0.2) 15px 15px, rgba(130, 46, 240, 0.1) 20px 20px, rgba(201, 46, 240, 0.05) 25px 25px;
+    border-radius: 5px;
+    width: 70vw;
+    /* height: 70vh; */
+    align-items: center;
+    justify-content: center;
+    margin: 200px auto;
+    color: white;
+    padding: 50px 10px;
+}
+
+
+.team-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+div.team-el{
+    margin: 50px 50px;
+}
+
+div.team-el img{
+    width: 100px;
+}
+
+@media screen and (max-width: 600px){
+    div.topics button{
+        width: 60vw;
+    } 
+    header img{
+        width: 95vw;
+    }
+    .main{
+        width: 90vw;
+    } 
+    .learn{
+        width: 90vw;
+        height: 800px;
+    }
+    .team{
+        width: 90vw;
+    }
+    .team-item {
+       
+        flex-direction: column;
+        justify-content: center;
+    }
+    div.team-el{
+        margin: 0px 50px;
+    }
+    .main-div{
+        width: 95vw;
+    }
+}
+
+
+
+
+
+ 
+   .table{
+       display: flex;
+       justify-content: space-around;
+       align-items: center;
+       flex-wrap: wrap;
+   }
+
+   .main-div ul li a{
+       color: black;
+       text-decoration: none;
+   }
+
+   .main-div ul{
+       margin-left: -40px;
+   }
+
+   .main-div li{
+       list-style: none;
+       margin-bottom: 10px;
+       border-bottom: 1px dotted #a7a5a5;
+       padding-bottom: 10px;
+
+   }
+
+   .main-div{
+       background-color: white;
+       padding: 20px;
+       width: 300px;
+       height: 500px;
+       /* position: absolute; */
+
+       /* transform: translate(-50%, -50%);
+       left: 50%;
+       right: 50%; */
+       border-radius: 10px;
+       box-shadow: 5px 5px 5px 5px #3c3a3a30;
+   }
+
+.search-box{
+    padding: 10px;
+    width: 90%;
+
+}
+
+.icon-camera-retro{
+    color: white;
+}
